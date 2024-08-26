@@ -11,7 +11,9 @@ import Login from './pages/Login';
 import Authors from './pages/Authors';
 import CreatePost from './pages/CreatePost';
 import EditPost from './pages/EditPost';
-import UserProfile from './pages/UserProfile'
+import UserProfile from './pages/UserProfile';
+import Logout from './pages/LogOut'
+
 
 const router = createBrowserRouter([
   {
@@ -27,6 +29,7 @@ const router = createBrowserRouter([
       {path: 'authors', element: <Authors />},
       {path: 'create', element: <CreatePost />},
       {path: 'posts/:id/edit', element: <EditPost />},
+      {path: 'logout', element: <Logout />},
         
     ]
   }

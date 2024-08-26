@@ -101,3 +101,12 @@ root.render(...): This renders the React application into the DOM.
 
 ###
 This code in the index.js file sets up a React application with a routing structure. It defines different paths and the corresponding components to render when those paths are visited. The Layout component is the main structure of the app, and the child routes determine what specific content is shown within that layout. The app uses react-router-dom to handle client-side routing, making it a Single Page Application (SPA).
+
+🔧 Technologies Used:
+HTML: Structuring the web pages
+CSS: Styling the application
+JavaScript: Adding dynamic behavior
+Node.js: Server-side scripting
+Express.js: Building the server and handling routes
+MongoDB: Database management
+EJS: Templating engine for dynamic content
