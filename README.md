@@ -75,6 +75,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 install the extension ES7 React/Redux/GraphQL.....
 install react-router-dom
 Path intellisense ....auto imputs path of components
+install react-icons
 
 ####################### 
 In the index page.....

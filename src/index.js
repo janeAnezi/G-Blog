@@ -14,6 +14,8 @@ import EditPost from './pages/EditPost';
 import UserProfile from './pages/UserProfile';
 import Logout from './pages/LogOut'
 
+import './index.css'
+
 
 const router = createBrowserRouter([
   {
