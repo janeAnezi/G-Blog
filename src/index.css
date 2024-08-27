@@ -44,8 +44,7 @@ body {
     color: var(--color-gray-700);
 }
 
-img {
-    background-color: brown;
+nav img {
     object-fit: cover;
     width: 100%;
 }
@@ -97,8 +96,13 @@ section {
 .btn-primary {
     background: var(--color-primary);
     color: var(--color-white);
+    padding: 0.3rem;
+    border-radius: var(--radius-2);
 }
-
+.btn-primary:hover {
+    background: #39369c;
+    padding: .2rem 2rem;
+}
 .btn-category {
     background: var(--color-bg);
     color: var(--color-primary);
@@ -184,4 +188,19 @@ footer {
     padding: 1rem;
     color: var(--color-white);
     font-weight: 300;
+}
+
+/* *************** 404 page ******** */
+
+.error-page {
+    display: flex;
+    justify-content: center;
+}
+.center img { 
+    display: block;
+    margin: auto;
+    height: 90vh;
+}
+.butn {
+    margin-left: 40%;
 }
