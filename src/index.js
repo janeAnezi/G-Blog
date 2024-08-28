@@ -14,6 +14,8 @@ import EditPost from './pages/EditPost';
 import DeletePost from './pages/DeletePost';
 import UserProfile from './pages/UserProfile';
 import Logout from './pages/LogOut';
+import CategoryPosts from './pages/CategoryPosts';
+
 
 import './index.css'
 
@@ -26,6 +28,7 @@ const router = createBrowserRouter([
     children: [
       {index: true, element: <Home />},
       {path: 'post/:id', element: <PostDetail />},
+      {path: '/posts/categories/:category', element: <CategoryPosts/>},
       {path: 'register', element: <Register />},
       {path: 'login', element: <Login />},
       {path: 'profile/:id', element: <UserProfile />},
@@ -34,6 +37,7 @@ const router = createBrowserRouter([
       {path: 'posts/:id/edit', element: <EditPost />},
       {path: 'posts/:id/delete', element: <DeletePost />},
       {path: 'logout', element: <Logout />}, 
+
     ]
   }
 ])
