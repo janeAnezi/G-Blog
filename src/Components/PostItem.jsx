@@ -9,13 +9,13 @@ export default function PostItem({postID, title, content, authorID, postImg, cat
             <img src={postImg} alt={title} />
         </div>
         <div className="post-content">
-            <Link to={`./posts/${postID}`}>
+            <Link to={`./post/${postID}`}>
                 <h3>{title}</h3>
             </Link>
             <p>{content}</p>
             <div className="post-footer">
                 <PostAuthor />
-                <Link to={`/posts/categories/${category}`}>{category}</Link>
+                <Link to={`/posts/categories/${category}`} className='btn-category'>{category}</Link>
             </div>
         </div>
     </article>

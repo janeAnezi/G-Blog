@@ -4,12 +4,12 @@ import avatar from '../images/icon2.png'
 
 export default function PostAuthor() {
   return (
-   <Link to={`/posts/users/sdfsdf`}>
+   <Link to={`/posts/users/sdfsdf`} className='post-author'>
         <div className="post-author-avatar">
             <img src={avatar} alt="" />
         </div>
         <div className='post-author-details'>
-            <h4>By: John Doe</h4>
+            <h5>By: John Doe</h5>
             <small>Just Now</small>
         </div>
 

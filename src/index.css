@@ -108,6 +108,11 @@ section {
     color: var(--color-primary);
     font-size: 0.75rem;
     font-weight: 400;
+    padding: 2px 8px;
+    border-radius: var(--radius-2);
+}
+.btn-category:hover {
+    background-color: var(--color-gray-100);
 }
 .btn-sm {
     font-size: 0.8rem;
@@ -209,7 +214,7 @@ footer {
 .posts-container {
     display:grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 4rem;
+    gap: 2rem;
 }
 
 .post-img img {
@@ -220,7 +225,7 @@ footer {
     overflow: hidden;
 }
 .post-author-avatar img {
-    width: 50px;
+    width: 25px;
 }
 .post {
     background: var(--color-white);
@@ -239,9 +244,22 @@ footer {
 .post-content h3 {
     margin:  1rem 0 0 0.6rem;
 }
+.post-content p {
+    font-size: 14px;
+    padding: 5px 0;
+}
 .post-footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     margin-top: 2rem;
+} 
+.post-author {
+    display: flex;
+    align-items: flex-start;
+}
+.post-author-avatar {
+    width: 2.5rem;
+    aspect-ratio: 1/1;
+    border-radius: var(--radius-2);
 }
