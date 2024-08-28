@@ -204,3 +204,44 @@ footer {
 .butn {
     margin-left: 40%;
 }
+
+/* *************** posts ******** */
+.posts-container {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+}
+
+.post-img img {
+    width: 200px;
+    min-width: 100%;
+    border-radius: var(--radius-3);
+    height: 16rem;
+    overflow: hidden;
+}
+.post-author-avatar img {
+    width: 50px;
+}
+.post {
+    background: var(--color-white);
+    padding: 1rem;
+    border-radius: var(--radius-4);
+    padding-bottom: 2rem ;
+    transition: var(--transition);
+    cursor: default;
+}
+.post:hover {
+    box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.1);
+}
+.post-content {
+    margin-top: 1.5rem ;
+}
+.post-content h3 {
+    margin:  1rem 0 0 0.6rem;
+}
+.post-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 2rem;
+}

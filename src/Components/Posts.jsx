@@ -39,9 +39,13 @@ const Dummy_Posts = [
 
 export default function Posts() {
     const [posts, setPosts] = useState(Dummy_Posts)
+    
   return (
-    <section>
-      { posts.map(({id, postImg, category, title, content, authorID}) => <PostItem key={id} postImg={postImg} category={category} title={title} content={content} authorID={authorID} postID={id} />)}
+    <section className='posts'>
+      <div className='container posts-container'>
+        { posts.map(({id, postImg, category, title, content, authorID}) => <PostItem key={id} postImg={postImg} category={category} title={title} content={content} authorID={authorID} postID={id} />)}
+      </div>
+      
     </section>
   )
 }
