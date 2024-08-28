@@ -13,7 +13,7 @@ import CreatePost from './pages/CreatePost';
 import EditPost from './pages/EditPost';
 import DeletePost from './pages/DeletePost';
 import UserProfile from './pages/UserProfile';
-import Logout from './pages/LogOut'
+import Logout from './pages/LogOut';
 
 import './index.css'
 
@@ -33,8 +33,7 @@ const router = createBrowserRouter([
       {path: 'create', element: <CreatePost />},
       {path: 'posts/:id/edit', element: <EditPost />},
       {path: 'posts/:id/delete', element: <DeletePost />},
-      {path: 'logout', element: <Logout />},
-        
+      {path: 'logout', element: <Logout />}, 
     ]
   }
 ])

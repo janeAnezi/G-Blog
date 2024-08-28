@@ -263,3 +263,14 @@ footer {
     aspect-ratio: 1/1;
     border-radius: var(--radius-2);
 }
+
+/* *************** postsdetail ******** */
+.post-detail {
+    width: var(--form-width);
+    background: var(--color-white);
+    margin-inline: auto;
+    padding: 2rem 0;
+}
+.post-detail-img img {
+    width: 100%;
+}

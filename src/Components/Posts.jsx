@@ -35,6 +35,20 @@ const Dummy_Posts = [
         content: 'This is the The background-color property sets the background color of an element. The background of an element is the total size of the element, including padding and border (but not the margin). Tip: Use a background color and a text color that makes the text easy to read.',
         authorID: 1
     },
+//     {   id: '3', 
+//     postImg: postImg3,
+//     category: 'education',
+//     title: 'Building Innovation',
+//     content: 'This is the The background-color property sets the background color of an element. The background of an element is the total size of the element, including padding and border (but not the margin). Tip: Use a background color and a text color that makes the text easy to read.',
+//     authorID: 2
+//   },
+//   {   id: '3', 
+//   postImg: postImg3,
+//   category: 'education',
+//   title: 'Building Innovation',
+//   content: 'This is the The background-color property sets the background color of an element. The background of an element is the total size of the element, including padding and border (but not the margin). Tip: Use a background color and a text color that makes the text easy to read.',
+//   authorID: 2
+// },
 ]
 
 export default function Posts() {
