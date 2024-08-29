@@ -10,7 +10,7 @@ export default function PostItem({postID, title, content, authorID, postImg, cat
   return (
     <article className='post'>
         <div className="post-img">
-            <img src={postImg} alt={title} />
+            <img src={postImg} alt={title} /> 
         </div>
         <div className="post-content">
             <Link to={`./post/${postID}`}>
@@ -22,6 +22,8 @@ export default function PostItem({postID, title, content, authorID, postImg, cat
                 <Link to={`/posts/categories/${category}`} className='btn-category'>{category}</Link>
             </div>
         </div>
+
+        
     </article>
   )
 }

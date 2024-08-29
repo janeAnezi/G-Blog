@@ -97,7 +97,7 @@ section {
     background: var(--color-primary);
     color: var(--color-white);
     padding: 0.3rem;
-    /* border-radius: var(--radius-2); */
+    border-radius: var(--radius-2);
 }
 .btn-primary:hover {
     background: #39369c;
@@ -123,6 +123,8 @@ section {
 .btn-danger {
     background: var(--color-red);
     color: var(--color-white);
+    border-radius: var(--radius-2);
+
 }
 .btn-danger:hover {
     background-color: rgb(223, 7, 7);
@@ -271,6 +273,25 @@ footer {
     margin-inline: auto;
     padding: 2rem 0;
 }
+.post-detail-img {
+    margin: 1rem 0;
+    height: fit-content;
+    max-height: 30rem;
+    overflow: hidden;
+}
 .post-detail-img img {
     width: 100%;
+}
+.post-detail p {
+    margin-bottom: 0.7rem;
+}
+.post-detail-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+.post-detail-buttons {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
 }
