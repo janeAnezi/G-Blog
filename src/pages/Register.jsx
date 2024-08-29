@@ -26,10 +26,10 @@ export default function Register() {
           <input type="password" placeholder='Password' name='password' value={userData.password} onChange={changeInputHandler}/>
           <input type="password" placeholder='Confirm Password' name='confirm-password' value={userData.password} onChange={changeInputHandler}/>
 
-          <button type='submit' className='btn-primary'>Register</button>
+          <button type='submit' className='btn-primary formbtn'>Register</button>
         </form>
 
-        <small>Already have an account? <Link to={'/login'}>SignIn</Link> </small>
+        <small className='form-small'>Already have an account? <Link to={'/login'}>SignIn</Link> </small>
         
       </div>
       <img src={img1} alt="" />

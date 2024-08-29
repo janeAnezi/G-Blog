@@ -319,8 +319,26 @@ footer {
     flex-direction: column;
     gap: 0.8rem;
 }
+.form-main h2 {
+    padding-bottom: .7rem;
+}
+.form-small {
+    margin-top: 2rem ;
+}
+.form-err-msg {
+    color: var(--color-red);
+}
 .register-section img {
     width: 40%;
     border-radius:var(--radius-4);
 
+}
+input, select, textarea {
+    padding: 0.6rem 1rem;
+    width: 100%;
+    resize: none;
+    border-radius: var(--radius-2);
+}
+.formbtn {
+    padding: 0.6rem 1rem;
 }
