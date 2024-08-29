@@ -11,7 +11,7 @@ export default function Posts() {
     <section className='posts'>
       {posts.length > 0 ? <div className='container posts-container'>
         { posts.map(({id, postImg, category, title, content, authorID}) => <PostItem key={id} postImg={postImg} category={category} title={title} content={content} authorID={authorID} postID={id} />)}
-      </div> : <h1>No Posts Found</h1>}
+      </div> : <h1 className='center'>No Posts Found</h1>}
       
     </section>
   )

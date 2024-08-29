@@ -18,6 +18,7 @@ import CategoryPosts from './pages/CategoryPosts';
 
 
 import './index.css'
+import AuthorPosts from './pages/AuthorPosts';
 
 
 const router = createBrowserRouter([
@@ -33,10 +34,12 @@ const router = createBrowserRouter([
       {path: 'login', element: <Login />},
       {path: 'profile/:id', element: <UserProfile />},
       {path: 'authors', element: <Authors />},
+      {path: '/posts/users/sdfsdf', element: <AuthorPosts />},
       {path: 'create', element: <CreatePost />},
       {path: 'posts/:id/edit', element: <EditPost />},
       {path: 'posts/:id/delete', element: <DeletePost />},
       {path: 'logout', element: <Logout />}, 
+
 
     ]
   }
