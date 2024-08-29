@@ -301,3 +301,15 @@ footer {
     gap: 1rem;
     align-items: center;
 }
+
+
+/* *********************Register and form style  ********************* */
+.register-section {
+    background: url('../src/images/signupImg.jpg') no-repeat cover;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    width: 100%;
+}
