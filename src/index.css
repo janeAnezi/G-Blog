@@ -304,12 +304,23 @@ footer {
 
 
 /* *********************Register and form style  ********************* */
-.register-section {
-    background: url('../src/images/signupImg.jpg') no-repeat cover;
+.register-section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.form-main {
+    padding: 1rem;
+    margin-right: 3rem;
+    width: 40%;
 }
 .form {
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
-    width: 100%;
+}
+.register-section img {
+    width: 40%;
+    border-radius:var(--radius-4);
+
 }

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import img1 from '../images/signupImg.jpg'
 
 export default function Register() {
   const [userData, setuserData] = useState({
@@ -14,8 +15,7 @@ export default function Register() {
 
   return (
     <section className='register-section'>
-      <div>
-      
+      <div className='form-main'>
         <div className="container">
           <h2>Sign Up</h2>
         </div>
@@ -32,6 +32,7 @@ export default function Register() {
         <small>Already have an account? <Link to={'/login'}>SignIn</Link> </small>
         
       </div>
+      <img src={img1} alt="" />
     </section>
   )
 }
