@@ -318,12 +318,10 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
+    margin-bottom: 20px;
 }
 .form-main h2 {
     padding-bottom: .7rem;
-}
-.form-small {
-    margin-top: 2rem ;
 }
 .form-err-msg {
     color: var(--color-red);
@@ -341,4 +339,7 @@ input, select, textarea {
 }
 .formbtn {
     padding: 0.6rem 1rem;
+}
+.link {
+    color: #6f6af8;
 }

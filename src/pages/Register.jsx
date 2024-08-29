@@ -29,7 +29,7 @@ export default function Register() {
           <button type='submit' className='btn-primary formbtn'>Register</button>
         </form>
 
-        <small className='form-small'>Already have an account? <Link to={'/login'}>SignIn</Link> </small>
+        <small>Already have an account? <Link to={'/login'} className='link'>SignIn</Link> </small>
         
       </div>
       <img src={img1} alt="" />
