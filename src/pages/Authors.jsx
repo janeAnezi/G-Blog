@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 import author1 from '../images/author1.jpg'
 import author2 from '../images/author2.jpg'
@@ -19,12 +20,15 @@ export default function Authors() {
   return (
     <section className='authors'>
       {authors.length > 0   ? <div className="container authors-container">
-        {authors.map(({id, number, avatar, name, posts}) => {
+        {authors.map(({id, avatar, name, posts}) => {
           return <Link key={id} to={`./posts/users/${id}`}> 
             <div className='author-avatar'>
               <img src={avatar} alt={`Image of ${name}`} />
             </div>
-            
+            <div className="author-info">
+              <h4>{name}</h4>
+              <p>{posts}</p>
+            </div>
           </Link>
         })}
       </div> : <h2>No users/authors found</h2>}
