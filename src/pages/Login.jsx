@@ -15,17 +15,17 @@ export default function Login() {
     <section className='register-section'>
       <div className='form-main'>
         <div className="container">
-          <h2>LogIn</h2>
+          <h2>Sign In</h2>
         </div>
         <form className='form register-form'>
           <p className='form-err-msg'>This is the error message</p>
           <input type="email" placeholder='Email' name='email' value={userData.email} onChange={changeInputHandler}/>
           <input type="password" placeholder='Password' name='password' value={userData.password} onChange={changeInputHandler}/>
 
-          <button type='submit' className='btn-primary formbtn'>Register</button>
+          <button type='submit' className='btn-primary formbtn'>Sign In</button>
         </form>
 
-        <small>Don't have an account? <Link to={'/register'} className='link'>Register</Link> </small>
+        <small>Don't have an account? <Link to={'/register'} className='link'>SignUp</Link></small>
         
       </div>
       <img src={img1} alt="" />
