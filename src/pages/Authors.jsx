@@ -21,7 +21,7 @@ export default function Authors() {
     <section className='authors'>
       {authors.length > 0   ? <div className="container authors-container">
         {authors.map(({id, avatar, name, posts}) => {
-          return <Link key={id} to={`./posts/users/${id}`}> 
+          return <Link key={id} to={`./posts/users/${id}`} className='author'> 
             <div className='author-avatar'>
               <img src={avatar} alt={`Image of ${name}`} />
             </div>
@@ -31,7 +31,7 @@ export default function Authors() {
             </div>
           </Link>
         })}
-      </div> : <h2>No users/authors found</h2>}
+      </div> : <h2 className='center'>No users/authors found</h2>}
     </section>
   )
 }
