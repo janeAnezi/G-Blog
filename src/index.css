@@ -304,7 +304,7 @@ footer {
 
 
 /* *********************Register and form style  ********************* */
-.register-section{
+.register-section, .login, .create-post {
     display: flex;
     justify-content: center;
     width: 100%;
