@@ -421,7 +421,6 @@ input, select, textarea {
 .profile-avatar-btn {
     cursor: pointer;
     padding: 0;
-    font-size: 1.2rem;
     background: var(--color-primary);
 }
 .profile-details h1 {

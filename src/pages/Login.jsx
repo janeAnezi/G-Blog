@@ -19,7 +19,7 @@ export default function Login() {
         </div>
         <form className='form register-form'>
           <p className='form-err-msg'>This is the error message</p>
-          <input type="email" placeholder='Email' name='email' value={userData.email} onChange={changeInputHandler}/>
+          <input type="email" placeholder='Email' name='email' value={userData.email} onChange={changeInputHandler} autoFocus/>
           <input type="password" placeholder='Password' name='password' value={userData.password} onChange={changeInputHandler}/>
 
           <button type='submit' className='btn-primary formbtn'>Sign In</button>
