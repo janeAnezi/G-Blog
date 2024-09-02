@@ -2,9 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import profileImg from '../images/earth-science.jpg'
 import { FaEdit } from "react-icons/fa";
+import { FaCheck } from "react-icons/fa";
+import { useState } from 'react'
 
 export default function UserProfile() {
-    const [avatar, setAvatar] = useState('')
+    const [avatar, setAvatar] = useState(' ')
   return (
     <section className='profile'>
         <div className="container profile_container">
@@ -20,7 +22,7 @@ export default function UserProfile() {
                         <input type="file" name="avatar" id="avatar" accept='png, jpg, jpeg' onChange={e => setAvatar(e.target.files[0])} />
                         <label htmlFor="avatar"><FaEdit /></label>
                     </form>
-                    <button className="profile-avatar-btn"></button>
+                    <button className="profile-avatar-btn"><FaCheck /></button>
                 </div>
                 <h1>YourFavTechSis</h1>
             </div>
