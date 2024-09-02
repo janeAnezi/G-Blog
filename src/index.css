@@ -343,3 +343,32 @@ input, select, textarea {
 .link {
     color: #6f6af8;
 }
+
+/* *********************Authors ********************* */
+.authors-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+.author {
+    background: var(--color-white);
+    padding: 1rem;
+    border-radius: var(--radius-3);
+    display: flex;
+    gap: 1rem;
+    transition: var(--transition);
+}
+.author:hover {
+    box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.7);
+}
+.author-avatar img {
+    width: 70px;
+    height: 70px;
+}
+.author-avatar {
+    width: 5rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 0.3rem solid var(--color-bg);
+    overflow: hidden;
+}
