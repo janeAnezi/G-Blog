@@ -378,7 +378,7 @@ input, select, textarea {
 
 /* ********************* user profile ********************* */
 
-.profile-container {
+.profile_container {
     display: grid;
     place-items: center;
     text-align: center;
@@ -412,7 +412,8 @@ input, select, textarea {
     position: absolute;
     right: 2rem;
     bottom: 1.4rem;
-    width: 3rem;
+    width: 2rem;
+    height: 2rem;
     display: grid;
     place-items: center;
     border-radius: 50%;
@@ -420,7 +421,7 @@ input, select, textarea {
 .profile-avatar-btn {
     cursor: pointer;
     padding: 0;
-    font-size: 2rem;
+    font-size: 1.2rem;
     background: var(--color-primary);
 }
 .profile-details h1 {

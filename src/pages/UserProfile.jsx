@@ -18,7 +18,7 @@ export default function UserProfile() {
                         <img src={profileImg} alt=" author profile image" />
                     </div>
                     {/* form to update avatar */}
-                    <form className="avater-form">
+                    <form className="avatar-form">
                         <input type="file" name="avatar" id="avatar" accept='png, jpg, jpeg' onChange={e => setAvatar(e.target.files[0])} />
                         <label htmlFor="avatar"><FaEdit /></label>
                     </form>
