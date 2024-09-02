@@ -4,6 +4,7 @@ import profileImg from '../images/earth-science.jpg'
 import { FaEdit } from "react-icons/fa";
 
 export default function UserProfile() {
+    const [avatar, setAvatar] = useState('')
   return (
     <section className='profile'>
         <div className="container profile_container">
@@ -16,10 +17,12 @@ export default function UserProfile() {
                     </div>
                     {/* form to update avatar */}
                     <form className="avater-form">
-                        <input type="file" name="avatar" id="avatar" />
+                        <input type="file" name="avatar" id="avatar" accept='png, jpg, jpeg' onChange={e => setAvatar(e.target.files[0])} />
                         <label htmlFor="avatar"><FaEdit /></label>
                     </form>
+                    <button className="profile-avatar-btn"></button>
                 </div>
+                <h1>YourFavTechSis</h1>
             </div>
         </div>
       
