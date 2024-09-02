@@ -372,3 +372,6 @@ input, select, textarea {
     border: 0.3rem solid var(--color-bg);
     overflow: hidden;
 }
+.author-info {
+    margin-top: 1rem;
+}
