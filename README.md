@@ -76,6 +76,7 @@ install the extension ES7 React/Redux/GraphQL.....
 install react-router-dom
 Path intellisense ....auto imputs path of components
 install react-icons
+install react-quill {for text area}
 
 ####################### 
 In the index page.....
@@ -111,3 +112,4 @@ Node.js: Server-side scripting
 Express.js: Building the server and handling routes
 MongoDB: Database management
 EJS: Templating engine for dynamic content
+

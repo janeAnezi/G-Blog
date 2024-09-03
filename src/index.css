@@ -344,6 +344,13 @@ input, select, textarea {
     color: #6f6af8;
 }
 
+/***** custom style for react quill ***/
+ .ql-editor {
+    overflow: scroll; 
+    background: var(--color-white);
+    height: 10rem;
+ }
+
 /* *********************Authors ********************* */
 .authors-container {
     display: grid;

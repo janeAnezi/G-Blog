@@ -18,7 +18,7 @@ export default function Dashboard() {
                             <h5>{post.title}</h5>
                         </div>
                         <div className='dashboard-post-action'>
-                            <Link to={`/posts/${post.id}`} className='btn-sm btn'>View</Link>
+                            <Link to={`/post/${post.id}`} className='btn-sm btn'>View</Link>
                             <Link to={`/posts/${post.id}/edit`} className='btn-sm btn-primary'>Edit</Link>
                             <Link to={`/posts/${post.id}/delete`} className='btn-sm btn-danger'>Delete</Link>
                         </div>
