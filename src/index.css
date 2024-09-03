@@ -569,4 +569,7 @@ input, select, textarea {
     .dashboard-post-image {
         width: 5rem;
     }
+    .center img { 
+        height: 40vh;
+    }
 }
