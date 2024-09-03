@@ -19,6 +19,7 @@ import CategoryPosts from './pages/CategoryPosts';
 
 import './index.css'
 import AuthorPosts from './pages/AuthorPosts';
+import Dashboard from './pages/Dashboard';
 
 
 const router = createBrowserRouter([
@@ -38,6 +39,7 @@ const router = createBrowserRouter([
       {path: 'create', element: <CreatePost />},
       {path: 'posts/:id/edit', element: <EditPost />},
       {path: 'posts/:id/delete', element: <DeletePost />},
+      {path: 'myposts/:id', element: <Dashboard />},
       {path: 'logout', element: <Logout />}, 
 
 

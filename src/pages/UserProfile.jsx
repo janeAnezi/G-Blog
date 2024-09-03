@@ -7,11 +7,11 @@ import { useState } from 'react'
 
 export default function UserProfile() {
     const [avatar, setAvatar] = useState(profileImg)
-    const [name, setName] = useState(' ')
-    const [email, setEmail] = useState(' ')
-    const [currentPassword, setCurrentPassword] = useState(' ')
-    const [newPasword, setNewpassword] = useState(' ')
-    const [confirmNewPassword,  setConfirmPassword] = useState(' ')
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [currentPassword, setCurrentPassword] = useState('')
+    const [newPasword, setNewpassword] = useState('')
+    const [confirmNewPassword,  setConfirmPassword] = useState('')
 
   return (
     <section className='profile'>
@@ -33,13 +33,16 @@ export default function UserProfile() {
                 <h1>YourFavTechSis</h1>
 
                 <form className='form profile-form'>
-                    <p className="form-error-message">
+                    <p className="form-err-msg">
                         this is an error message
                     </p>
-                    <input type="text" placeholder='full name' value={name} onChange={e => setName(e.target.value)}/>
-                    <input type="email" placeholder='Your email' value={name} onChange={e => setEmail(e.target.value)}/>
+                    <input type="text" placeholder='Full name' value={name} onChange={e => setName(e.target.value)}/>
+                    <input type="email" placeholder='Your email' value={email} onChange={e => setEmail(e.target.value)}/>
                     <input type="password" placeholder='current password' value={currentPassword} onChange={e => setCurrentPassword(e.target.value)}/>
-                    <input type="text" placeholder='full name' value={name} onChange={e => setName(e.target.value)}/>
+                    <input type="password" placeholder='new password' value={newPasword} onChange={e => setNewpassword(e.target.value)}/>
+                    <input type="password" placeholder='confirm new password' value={confirmNewPassword} onChange={e => setConfirmPassword(e.target.value)}/>
+
+                    <button type='submit' className='btn-primary'>Update details</button>
                 </form>
             </div>
         </div>
