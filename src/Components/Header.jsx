@@ -17,14 +17,14 @@ export default function Header() {
   return ( 
     <nav>
       <div className='container nav_container'>
-        <Link to='/' className='nav_logo' >
+        <Link to='/' className='nav_logo' onClick={closeNavHandler}>
           <img src={Logo} alt="navbar logo" />
         </Link>
         {isNavOpen && <ul className='nav_menu'>
-          <li><Link to='/profile/sdfsdf'>YourFavTech-Sis</Link></li>
-          <li><Link to='/create'>Create Post</Link></li>
-          <li><Link to='/authors'>Authors</Link></li>
-          <li><Link to='/logout'>Logout</Link></li>
+          <li><Link to='/profile/sdfsdf' onClick={closeNavHandler}>YourFavTech-Sis</Link></li>
+          <li><Link to='/create' onClick={closeNavHandler}>Create Post</Link></li>
+          <li><Link to='/authors' onClick={closeNavHandler}>Authors</Link></li>
+          <li><Link to='/logout' onClick={closeNavHandler}>Logout</Link></li>
         </ul>}
         <button className='nav_toggle-btn' onClick={() => setIsNavOpen(!isNavOpen)}>
           {isNavOpen ? <AiOutlineClose /> :  <FaBarsStaggered />}
