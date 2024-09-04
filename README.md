@@ -77,6 +77,12 @@ install react-router-dom
 Path intellisense ....auto imputs path of components
 install react-icons
 install react-quill {for text area}
+install node for the backend
+create a mongoDB account to save the data in a database
+postman to test API
+
+#####################
+npm init -y ( to install the package.json file)
 
 ####################### 
 In the index page.....
