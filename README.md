@@ -83,6 +83,18 @@ postman to test API
 
 #####################
 npm init -y ( to install the package.json file)
+************* (packages for api)
+npm install express
+npm install mongoose
+npm install cors
+npm install dotenv
+npm install body-parser
+npm install jsonwebtoken
+npm install bcrypt
+
+then we create our express server....(index.js)
+install install -D nodemon (a development dependency)
+
 
 ####################### 
 In the index page.....
