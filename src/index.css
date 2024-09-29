@@ -13,7 +13,7 @@
     --color-gray-900: #0c0c22;
 
     /* hwb -> hue white and black */
-    --color-bg: hwb(240 94% 0%);
+    --color-bg: hwb(240 97% 2%);
 
     --transition: all 300ms ease;
 
